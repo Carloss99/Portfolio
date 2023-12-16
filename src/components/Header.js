@@ -12,17 +12,17 @@ const Header = () => {
 
     const quote = {
         'position':'absolute',
-        'top':'20%',
-        'left':'10%',
+        'top':'30%',
+        'left':'40%',
     }
 
 
     return (
         <div class='bg-black relative'>
-            <div className='header' class=' h-screen flex justify-center items-center' style={backgroundImage}>
+            <div className='header' class=' h-screen flex justify-center items-center ' style={backgroundImage}>
             
             </div>
-            <div class='text-white text-center text-3xl w-1/2  font-bold leading-10' style={quote}>My name is Carlos Figueroa. I am a Full Stack Developer on a journey to build and develop fast , efficient and user-friendly websites.</div>
+            <div class='text-white text-center text-xl sm:text-3xl w-1/2  font-bold leading-10' style={quote}>My name is Carlos Figueroa. I am a Full Stack Developer on a journey to build and develop fast , efficient and user-friendly websites.</div>
             
         </div>
         
